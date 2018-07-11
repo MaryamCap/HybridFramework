@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="429" started-at="2018-01-26T07:26:05Z" finished-at="2018-01-26T07:26:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="429" started-at="2018-01-26T07:26:05Z" finished-at="2018-01-26T07:26:06Z">
+      <class name="com.hybridFramework.loginPage.LoginTest">
+        <test-method status="FAIL" signature="launchBrowser()[pri:0, instance:com.hybridFramework.loginPage.LoginTest@5762806e]" name="launchBrowser" is-config="true" duration-ms="0" started-at="2018-01-26T01:26:05Z" finished-at="2018-01-26T01:26:05Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.hybridFramework.helper.Wait.WaitHelper.<init>(WaitHelper.java:30)
+	at com.hybridFramework.testBase.TestBase.launchBrowser(TestBase.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:624)
+	at org.testng.TestRunner.run(TestRunner.java:592)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hybridFramework.loginPage.LoginTest@5762806e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-26T01:26:05Z" finished-at="2018-01-26T01:26:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="testLoginToApplication()[pri:0, instance:com.hybridFramework.loginPage.LoginTest@5762806e]" name="testLoginToApplication" duration-ms="2" started-at="2018-01-26T01:26:05Z" finished-at="2018-01-26T01:26:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginToApplication -->
+        <test-method status="SKIP" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hybridFramework.loginPage.LoginTest@5762806e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-26T01:26:05Z" finished-at="2018-01-26T01:26:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.hybridFramework.loginPage.LoginTest@5762806e]" name="endTest" is-config="true" duration-ms="349" started-at="2018-01-26T01:26:05Z" finished-at="2018-01-26T01:26:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.hybridFramework.loginPage.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

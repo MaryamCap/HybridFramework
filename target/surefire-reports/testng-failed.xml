@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.hybridFramework.homepage.TestDataDriverScript">
+        <methods>
+          <include name="testLogin" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="endTest"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.hybridFramework.homepage.TestDataDriverScript -->
+      <class name="com.hybridFramework.loginPage.LoginTest">
+        <methods>
+          <include name="endTest"/>
+          <include name="testLoginToApplication"/>
+        </methods>
+      </class> <!-- com.hybridFramework.loginPage.LoginTest -->
+      <class name="com.hybridFramework.homepage.TestDataDriverScript1">
+        <methods>
+          <include name="endTest"/>
+          <include name="testLogin" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.hybridFramework.homepage.TestDataDriverScript1 -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
